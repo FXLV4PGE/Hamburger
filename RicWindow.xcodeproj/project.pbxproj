@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180ED1111EDB441700D73BFE /* HamburgerMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180ED1101EDB441700D73BFE /* HamburgerMemberViewController.swift */; };
+		1865BFC81ED9EAB200260FED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865BFC71ED9EAB200260FED /* AppDelegate.swift */; };
+		1865BFCA1ED9EAB200260FED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865BFC91ED9EAB200260FED /* MainViewController.swift */; };
+		1865BFCD1ED9EAB200260FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1865BFCB1ED9EAB200260FED /* Main.storyboard */; };
+		1865BFCF1ED9EAB200260FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1865BFCE1ED9EAB200260FED /* Assets.xcassets */; };
+		1865BFD21ED9EAB200260FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1865BFD01ED9EAB200260FED /* LaunchScreen.storyboard */; };
+		1865BFDA1ED9FA3900260FED /* Hamburger.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1865BFD91ED9FA3900260FED /* Hamburger.storyboard */; };
+		1865BFDC1ED9FA5400260FED /* HamburgerContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865BFDB1ED9FA5400260FED /* HamburgerContainerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180ED1101EDB441700D73BFE /* HamburgerMemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerMemberViewController.swift; sourceTree = "<group>"; };
+		1865BFC41ED9EAB200260FED /* RicWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RicWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1865BFC71ED9EAB200260FED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1865BFC91ED9EAB200260FED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1865BFCC1ED9EAB200260FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1865BFCE1ED9EAB200260FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1865BFD11ED9EAB200260FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1865BFD31ED9EAB200260FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1865BFD91ED9FA3900260FED /* Hamburger.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hamburger.storyboard; sourceTree = "<group>"; };
+		1865BFDB1ED9FA5400260FED /* HamburgerContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerContainerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1865BFC11ED9EAB200260FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1865BFBB1ED9EAB200260FED = {
+			isa = PBXGroup;
+			children = (
+				1865BFC61ED9EAB200260FED /* RicWindow */,
+				1865BFC51ED9EAB200260FED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1865BFC51ED9EAB200260FED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1865BFC41ED9EAB200260FED /* RicWindow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1865BFC61ED9EAB200260FED /* RicWindow */ = {
+			isa = PBXGroup;
+			children = (
+				1865BFC71ED9EAB200260FED /* AppDelegate.swift */,
+				1865BFC91ED9EAB200260FED /* MainViewController.swift */,
+				1865BFCB1ED9EAB200260FED /* Main.storyboard */,
+				1865BFDD1ED9FA5B00260FED /* Hamburger */,
+				1865BFCE1ED9EAB200260FED /* Assets.xcassets */,
+				1865BFD01ED9EAB200260FED /* LaunchScreen.storyboard */,
+				1865BFD31ED9EAB200260FED /* Info.plist */,
+			);
+			path = RicWindow;
+			sourceTree = "<group>";
+		};
+		1865BFDD1ED9FA5B00260FED /* Hamburger */ = {
+			isa = PBXGroup;
+			children = (
+				1865BFD91ED9FA3900260FED /* Hamburger.storyboard */,
+				180ED1101EDB441700D73BFE /* HamburgerMemberViewController.swift */,
+				1865BFDB1ED9FA5400260FED /* HamburgerContainerViewController.swift */,
+			);
+			name = Hamburger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1865BFC31ED9EAB200260FED /* RicWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1865BFD61ED9EAB200260FED /* Build configuration list for PBXNativeTarget "RicWindow" */;
+			buildPhases = (
+				1865BFC01ED9EAB200260FED /* Sources */,
+				1865BFC11ED9EAB200260FED /* Frameworks */,
+				1865BFC21ED9EAB200260FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RicWindow;
+			productName = RicWindow;
+			productReference = 1865BFC41ED9EAB200260FED /* RicWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1865BFBC1ED9EAB200260FED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Amourine Technologies";
+				TargetAttributes = {
+					1865BFC31ED9EAB200260FED = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NFHP7Z5VAQ;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1865BFBF1ED9EAB200260FED /* Build configuration list for PBXProject "RicWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1865BFBB1ED9EAB200260FED;
+			productRefGroup = 1865BFC51ED9EAB200260FED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1865BFC31ED9EAB200260FED /* RicWindow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1865BFC21ED9EAB200260FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1865BFDA1ED9FA3900260FED /* Hamburger.storyboard in Resources */,
+				1865BFD21ED9EAB200260FED /* LaunchScreen.storyboard in Resources */,
+				1865BFCF1ED9EAB200260FED /* Assets.xcassets in Resources */,
+				1865BFCD1ED9EAB200260FED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1865BFC01ED9EAB200260FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1865BFDC1ED9FA5400260FED /* HamburgerContainerViewController.swift in Sources */,
+				1865BFCA1ED9EAB200260FED /* MainViewController.swift in Sources */,
+				180ED1111EDB441700D73BFE /* HamburgerMemberViewController.swift in Sources */,
+				1865BFC81ED9EAB200260FED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1865BFCB1ED9EAB200260FED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1865BFCC1ED9EAB200260FED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1865BFD01ED9EAB200260FED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1865BFD11ED9EAB200260FED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1865BFD41ED9EAB200260FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1865BFD51ED9EAB200260FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1865BFD71ED9EAB200260FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NFHP7Z5VAQ;
+				INFOPLIST_FILE = RicWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmourineTech.RicWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1865BFD81ED9EAB200260FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NFHP7Z5VAQ;
+				INFOPLIST_FILE = RicWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmourineTech.RicWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1865BFBF1ED9EAB200260FED /* Build configuration list for PBXProject "RicWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1865BFD41ED9EAB200260FED /* Debug */,
+				1865BFD51ED9EAB200260FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1865BFD61ED9EAB200260FED /* Build configuration list for PBXNativeTarget "RicWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1865BFD71ED9EAB200260FED /* Debug */,
+				1865BFD81ED9EAB200260FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1865BFBC1ED9EAB200260FED /* Project object */;
+}
